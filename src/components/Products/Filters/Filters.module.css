@@ -1,0 +1,36 @@
+.filterContainer{
+    width:24%;
+}
+.filters{
+    width: 100%;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    
+}
+
+.filters>div{    
+    padding:20px;
+    color: #525252;
+}
+.filters section{
+    overflow: auto;
+    height: 180px;
+    margin: 20px 0 0 -10px;
+    padding-left: 10px;
+}
+.filters>label{
+    line-height: 36px;
+    color:#697488;
+}
+.filters input[type="radio"]{
+    margin-right:8px;
+}
+
+.filters input[type="text"]{
+    border: 2px solid #E0E0E0;
+    padding: 12px 15px;
+    width: 100%;
+    box-sizing: border-box ;
+    border-radius: 2px;
+
+}

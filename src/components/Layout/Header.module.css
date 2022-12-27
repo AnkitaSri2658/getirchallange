@@ -1,0 +1,17 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--primary-blue-color);
+  z-index: 10;
+}
+.header > div {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 7%;
+  position: relative;
+  height: 76px;
+}

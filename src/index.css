@@ -1,0 +1,52 @@
+:root {
+  --main-bg-color: #fafafa;
+  --primary-blue-color: #1ea4ce;
+  --secondary-blue-color: #147594;
+  --primary-text-color: #6f6f6f;
+  --secondary-text-color: #191919;
+  --filter-label-color: #697488;
+  --input-label-color: #525252;
+}
+
+body {
+  margin: 0;
+  background: var(--main-bg-color);
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  color: var(--primary-text-color);
+  font-size: 14px;
+  line-height: 18px;
+}
+
+main > div {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin: 76px 7% 0 7%;
+  padding: 50px 0;
+}
+
+::-webkit-scrollbar {
+  width: 5px; 
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e0e0e0; border-radius: 4px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #999; 
+}
+
+@media screen and (max-width: 1300px)  {
+  main > div { margin: 76px 4% 0 4%;}
+}
+
+

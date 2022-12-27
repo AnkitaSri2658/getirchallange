@@ -1,0 +1,25 @@
+.button {
+  cursor: pointer;
+  border: none;
+  background-color: var(--secondary-blue-color);
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 76px;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 129px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.badge {
+  margin-left: 8px;
+}

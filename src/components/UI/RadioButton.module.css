@@ -1,0 +1,44 @@
+.radioBtn {
+  margin-bottom: 18px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.radioBtn input {
+  display: none;
+}
+.radioBtn label {
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  display: inline-block;
+  color: var(--input-label-color);
+}
+
+.radioBtn label::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -2px;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ddd;
+  border-radius: 100%;
+  background: #fff;
+}
+.radioBtn label::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--primary-blue-color);
+  position: absolute;
+  top: -2px;
+  left: 0px;
+  border-radius: 100%;
+  opacity: 0;
+  background: url("../../assets/tick-blue.svg") no-repeat center;
+}
+
+.radioBtn input:checked + label::after {
+  opacity: 1;
+}

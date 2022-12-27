@@ -1,0 +1,48 @@
+.checkBox {
+  margin-bottom: 18px;
+}
+
+.checkBox input {
+  display: none;
+}
+
+.checkBox label {
+  position: relative;
+  padding-left: 32px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: var(--input-label-color);
+}
+
+.checkBox label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -1px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  background: #fff;
+  box-shadow: 0px 1px 7px rgba(93, 56, 192, 0.3);
+}
+
+.checkBox label:after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border: 1px solid var(--primary-blue-color);
+  position: absolute;
+  top: -1px;
+  left: 0px;
+  opacity: 0;
+  border-radius: 2px;
+  background: var(--primary-blue-color) url("../../assets/tick.svg") no-repeat
+    center;
+}
+.checkBox input:checked + label:after {
+  opacity: 1;
+}
