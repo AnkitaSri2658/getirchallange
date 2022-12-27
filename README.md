@@ -2,22 +2,35 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This app is developed to show the following features
-1> Show the Products details from json data
-2> Add or remove products from the Cart
-3> Show products by Product type here we have two type shirts and mugs
-4> Sort the product by new to old, old to new etc..
-5> Get Products by Brands
-6> Get products by tags
-7> Pagination
+This app is developed to show the following features 
+
+1. Show the Products details from json data
+
+2. Add or remove products from the Cart
+
+3. Show products by Product type here we have two type shirts and mugs
+
+4. Sort the product by new to old, old to new etc..
+
+5. Get Products by Brands
+
+6. Get products by tags
+
+7. Pagination
+
+Note: I have used thumbnail image one can use real image in real scanarios.
+
+Application Ui looks like the following. 
+
+<img width="1086" alt="Screenshot 2022-12-27 at 17 35 28" src="https://user-images.githubusercontent.com/99965138/209695385-f0c445bd-8d36-4e28-8fdb-de3d0def9299.png">
 
 
 ## Dependency 
 
-React
-Redux toolkits
-Json-Server
-css modules
+- [React](https://create-react-app.dev/)
+- [Redux toolkits](https://redux-toolkit.js.org/introduction/getting-started)
+- [Json-Server](https://github.com/typicode/json-server)
+- [css modules](https://create-react-app.dev/docs/adding-a-css-modules-stylesheet)
 
 
 ## Available Scripts
@@ -25,7 +38,7 @@ css modules
 In the project directory, you can run:
 ### `npm install`
 
-json is hosted on json server to run it follow the following command.
+json is hosted on json server to run it follow the following command.\
 navigate to data folder run 
 ### `npm install -g json-server`
 ### `json-server items.json `
@@ -46,7 +59,8 @@ You may also see any lint errors in the console.
 
 ## Folder structure
 
-We have the folder structure as follows
+We have the folder structure as follows.\
+<img width="225" alt="Screenshot 2022-12-27 at 17 21 36" src="https://user-images.githubusercontent.com/99965138/209695407-97b59dae-1bc6-468b-9d66-72df2146f1d4.png">
 
 #### data 
 data folder has json data
